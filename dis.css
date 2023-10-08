@@ -1,0 +1,172 @@
+*body{
+ background-color: rgb(144, 121, 45);   
+}
+@keyframes spin {
+  
+    150%{
+        transform: rotate(300deg)
+    }
+    100%{
+
+        transform: rotate(300deg)
+    }
+    40%{
+        background-color: rgb(255, 247, 0);
+
+    }
+    75%{
+        background-color: red;
+
+    }
+    
+
+}
+
+@keyframes spin1 {
+  
+    150%{
+        transform: rotate(300deg)
+    }
+    100%{
+        transform: rotate(300deg)
+    }
+    40%{
+        background-color: rgb(255, 0, 247);
+
+    }
+    75%{
+        background-color: rgb(20, 178, 104);
+
+    }
+
+
+}
+
+@keyframes spin2 {
+  
+    150%{
+        transform: rotate(300deg)
+    }
+    100%{
+        transform: rotate(300deg)
+    }
+
+    40%{
+        background-color: rgb(214, 211, 9);
+
+    }
+    75%{
+        background-color:  rgb(16, 224, 71);
+
+    }
+
+
+}
+
+#one{
+    background-color: rgb(84, 109, 96);
+    margin-top: 5%;
+    height:200px;
+    width: 200px;
+    border:2px solid black;
+    animation: spin 20.4s infinite;
+    
+  }
+
+#two{
+    background-color: rgb(177, 174, 185);
+
+    height:180px;
+    width: 180px;
+    border:2px solid black ;
+    margin: 5px;
+    animation: spin1 20.4s infinite;
+
+}
+
+#three{
+    
+    background-color: rgb(114, 117, 85);
+
+    height:170px;
+    width: 170px;
+    border:2px solid black ;
+    margin: 5px;
+    animation: spin2 20.4s infinite;
+}
+#four{
+    background-color: rgb(37, 52, 56);
+
+    height:160px;
+    width: 160px;
+    border:2px solid black ;
+    margin: 5px;
+    animation: spin2 20.4s infinite;
+}
+#five{
+    background-color: rgb(68, 0, 255);
+
+    height:150px;
+    width: 150px;
+    border:2px solid black ;
+    margin: 5px;
+    animation: spin2 20.4s infinite;
+}
+#six{
+    background-color: rgb(154, 16, 193);
+
+    height:140px;
+    width: 140px;
+    border:2px solid black ;
+    margin: 5px;
+    animation: spin2 20.4s infinite;
+}
+#seven{
+    background-color: rgb(220, 39, 178);
+
+    height:130px;
+    width: 130px;
+    border:2px solid black ;
+    margin: 5px;
+    animation: spin2 20.4s infinite;
+}#eight{
+    background-color: rgb(217, 255, 0);
+
+    height:120px;
+    width: 120px;
+    border:2px solid black ;
+    margin: 5px;
+    animation: spin2 20.4s infinite;
+}#nine{
+    background-color: rgb(22, 201, 186);
+
+    height:110px;
+    width: 110px;
+    border:2px solid black ;
+    margin: 5px;
+    animation: spin2 20.4s infinite;
+}#ten{
+    background-color: rgb(0, 255, 238);
+
+    height:100px;
+    width: 100px;
+    border:2px solid black ;
+    margin: 5px;
+    animation: spin2 20.4s infinite;
+}#eleven{
+    background-color: rgb(191, 255, 0);
+
+    height :90px;
+    width: 90px;
+    border:2px solid black ;
+    margin: 5px;
+    animation: spin2 20.4s infinite;
+}#twelfth{
+    background-color: rgb(0, 255, 238);
+
+    height:80px;
+    width: 80px;
+    border:2px solid black ;
+    margin: 5px;
+    animation: spin2 20.4s infinite;
+}
